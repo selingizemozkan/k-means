@@ -37,7 +37,7 @@ K-Means algoritmasında verilerin merkeze olan uzaklıklarının hesaplanmasınd
 *Öklid Uzaklığı* +
 Öklid uzaklık formülü en yaygın olarak kullanılan uzaklık hesaplama formülüdür. +
 
-image::https://upload.wikimedia.org/math/8/4/9/849f040fd10bb86f7c85eb0bbe3566a4.png[R]
+image::https://upload.wikimedia.org/math/8/4/9/849f040fd10bb86f7c85eb0bbe3566a4.png[R] https://www.e-adys.com/post/2016/01/13/kumeleme-algoritmalari-k-means-algoritmasi [[2]]
 
 *K-Means Algoritmasının İşlem Basamakları* +
 
