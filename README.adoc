@@ -4,7 +4,7 @@ image::https://github.com/ahmeterdem9603/k-means_kumeleme/blob/master/Untitled.p
 K-Means kümeleme mantığını kavrayabilmemiz için öncelikle kümelemenin tanımını yapmamız gerekir. +
 Kümeleme analizi, bir veri kümesindeki bilgileri belirli yakınlık kriterlerine göre gruplara ayırma işlemidir. 
 Bu grupların her birine *küme* denir. *Kümeleme* ise en basit tanımıyla
-benzer özellik gösteren veri elemanlarının kendi aralarında gruplara ayrılmasıdır.https://prezi.com/ml-nnxafkeky/kumeleme-nedir/[[1]] +
+benzer özellik gösteren veri elemanlarının kendi aralarında gruplara ayrılmasıdır. https://prezi.com/ml-nnxafkeky/kumeleme-nedir/[[1]] +
 
 image::https://github.com/ahmeterdem9603/k-means_kumeleme/blob/master/ikili11.png[R]
 
