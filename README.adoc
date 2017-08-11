@@ -35,7 +35,7 @@ değeri değişmeyen sabit bir pozitif tam sayıdır. +
 K-Means algoritmasında verilerin merkeze olan uzaklıklarının hesaplanmasında *öklid uzaklık formülü* temel alınmıştır. +
 
 *Öklid Uzaklığı* +
-Öklid uzaklık formülü en yaygın olarak kullanılan uzaklık hesaplama formülüdür. https://www.e-adys.com/post/2016/01/13/kumeleme-algoritmalari-k-means-algoritmasi [[2]]
+Öklid uzaklık formülü en yaygın olarak kullanılan uzaklık hesaplama formülüdür. https://www.e-adys.com/post/2016/01/13/kumeleme-algoritmalari-k-means-algoritmasi[[2]]
  +
 
 image::https://upload.wikimedia.org/math/8/4/9/849f040fd10bb86f7c85eb0bbe3566a4.png[R] 
