@@ -44,7 +44,7 @@ image::https://upload.wikimedia.org/math/8/4/9/849f040fd10bb86f7c85eb0bbe3566a4.
 *K-Means Algoritmasının İşlem Basamakları* +
 
 image::https://github.com/selingizemozkan/k-means/raw/master/ghfg.png[R]
-image::https://github.com/ahmeterdem9603/k-means_kumeleme/blob/master/ad%C4%B1mlar34.PNG[R]
+image::https://github.com/selingizemozkan/k-means/raw/master/ghkjghj.png[R]
 
 *NOT* Kümelerin kararlı yapıya geçmesinde birkaç yaklaşım söz konusudur. Bunlardan biri, hesaplanan merkezlerin koordinatlarının bir sonraki döngüde hesaplanan merkezlerin koordinatlarıyla eşit olmasıdır. Aşağıda paylaştığımız algoritma ve kod örneğinde de bu yaklaşım kullanılmıştır. +
 Fakat bu yaklaşımda farklı iki nokta çiftlerinin de aynı merkezi verebilme ihtimali göz ardı edilmemelidir. +
