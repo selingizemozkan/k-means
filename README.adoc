@@ -170,6 +170,6 @@ for i in range(iteration):
 -----------------------------------------
 
 == REFERANSLAR 
-*https://prezi.com/ml-nnxafkeky/kumeleme-nedir/
-*https://www.e-adys.com/post/2016/01/13/kumeleme-algoritmalari-k-means-algoritmasi
+. https://prezi.com/ml-nnxafkeky/kumeleme-nedir/
+. https://www.e-adys.com/post/2016/01/13/kumeleme-algoritmalari-k-means-algoritmasi
 
