@@ -8,7 +8,7 @@ benzer özellik gösteren veri elemanlarının kendi aralarında gruplara ayrıl
 
 image::https://github.com/selingizemozkan/k-means/raw/master/resim1.png[R]
 
-Şekil 1 + 
+                                 Şekil 1 + 
 
 Aynı küme içindeki elemanların benzerliği fazla, kümeler arası benzerlik ise az olmalıdır. Bu tanımlara göre her küme temsil ettiği nesneleri en iyi ifade edecek şekilde düzenlenir. +
 
