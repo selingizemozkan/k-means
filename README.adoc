@@ -53,7 +53,7 @@ image::https://github.com/selingizemozkan/k-means/blob/master/c2.png?raw=true[R]
 Veri setindeki her bir noktanın merkezlere olan uzaklıkları öklid formülü ile hesaplanır ve karşılaştırılır. Noktalar en yakın oldukları merkezin kümesine dahil edilir.
 
 image::https://github.com/selingizemozkan/k-means/blob/master/c4.png?raw=true[R]
-Oluşan yeni kümelerin ağırlık merkezleri (ortalama değerleri) hesaplanır. Hesaplanan bu değerler kümelerin yeni merkezleridir. Veri setindeki her bir noktanın yeni merkezlere olan uzaklıkları tekrar hesaplanır.+
+Oluşan yeni kümelerin ağırlık merkezleri (ortalama değerleri) hesaplanır. Hesaplanan bu değerler kümelerin yeni merkezleridir. Veri setindeki her bir noktanın yeni merkezlere olan uzaklıkları tekrar hesaplanır.
 
 image::https://github.com/selingizemozkan/k-means/blob/master/c5.png?raw=true[R]
 Küme merkezlerinin yer değiştirmelerinden dolayı kümeler içerisindeki verilerin de küme değiştirmesi söz konusudur. Dolayısıyla tam anlamıyla kümeleme işlemi yapılabilmesi için kümeler kararlı hale gelene kadar 2. ve 3. adımların tekrarlanması gerekir. 
