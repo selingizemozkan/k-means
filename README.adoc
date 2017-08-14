@@ -10,7 +10,7 @@ image::https://github.com/selingizemozkan/k-means/raw/master/resim1.png[R]
 
 Aynı küme içindeki elemanların benzerliği fazla, kümeler arası benzerlik ise az olmalıdır. Bu tanımlara göre her küme temsil ettiği nesneleri en iyi ifade edecek şekilde düzenlenir. +
 
-Burada temel amaç , yeni gelecek ve henüz hangi sınıfta olduğu bilinmeyen verilerin var olan sınıflardan en uygun olanına yerleştirilmesidir. Gözetimsiz sınıflamada ise amaç, başlangıçta verilen ve henüz sınıflandırılmamış bir kümede veriyi anlamlı alt kümeler oluşturacak şekilde öbeklemektir. +
+Burada temel amaç , yeni gelecek ve henüz hangi sınıfta olduğu bilinmeyen verilerin var olan sınıflardan en uygun olanına yerleştirilmesidir. +
 
 image::https://github.com/ahmeterdem9603/k-means_kumeleme/blob/master/nww.PNG[R]
 
