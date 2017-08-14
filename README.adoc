@@ -50,6 +50,9 @@ image::https://github.com/selingizemozkan/k-means/blob/master/c1.png?raw=true[R]
 image::https://github.com/selingizemozkan/k-means/blob/master/c2.png?raw=true[R]
 Veri setindeki her bir noktanın merkezlere olan uzaklıkları öklid formülü ile hesaplanır ve karşılaştırılır. Noktalar en yakın oldukları merkezin kümesine dahil edilir. +
 
+image::https://github.com/selingizemozkan/k-means/blob/master/c3.png?raw=true[R]
+Oluşan yeni kümelerin ağırlık merkezleri (ortalama değerleri) hesaplanır. Hesaplanan bu değerler kümelerin yeni merkezleridir. Veri setindeki her bir noktanın yeni merkezlere olan uzaklıkları tekrar hesaplanır.+
+
 *NOT* Kümelerin kararlı yapıya geçmesinde birkaç yaklaşım söz konusudur. Bunlardan biri, hesaplanan merkezlerin koordinatlarının bir sonraki döngüde hesaplanan merkezlerin koordinatlarıyla eşit olmasıdır. Aşağıda paylaştığımız algoritma ve kod örneğinde de bu yaklaşım kullanılmıştır. +
 Fakat bu yaklaşımda farklı iki nokta çiftlerinin de aynı merkezi verebilme ihtimali göz ardı edilmemelidir. +
 Diğer bir yaklaşım ise, belirli adımlar sonucu oluşan kümelerdeki elemanların, bir sonraki döngü sonucunda oluşan kümelerdeki elemanlarla aynı kümelerde bulunmasıdır. Bu yaklaşım diğer yaklaşıma göre daha az hata payına sahiptir. +
