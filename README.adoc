@@ -6,7 +6,7 @@ Kümeleme analizi, bir veri kümesindeki bilgileri belirli yakınlık kriterleri
 Bu grupların her birine *küme* denir. *Kümeleme* ise en basit tanımıyla
 benzer özellik gösteren veri elemanlarının kendi aralarında gruplara ayrılmasıdır. https://prezi.com/ml-nnxafkeky/kumeleme-nedir/[[1]] +
 
-image::https://github.com/ahmeterdem9603/k-means_kumeleme/blob/master/ikili11.png[R]
+image::https://github.com/selingizemozkan/k-means/raw/master/resim1.png[R]
 
 Aynı küme içindeki elemanların benzerliği fazla, kümeler arası benzerlik ise az olmalıdır. Bu tanımlara göre her küme temsil ettiği nesneleri en iyi ifade edecek şekilde düzenlenir. +
 
