@@ -43,11 +43,12 @@ image::https://upload.wikimedia.org/math/8/4/9/849f040fd10bb86f7c85eb0bbe3566a4.
 *K-Means Algoritmasının İşlem Basamakları* +
 
 image::https://github.com/selingizemozkan/k-means/blob/master/c1.png?raw=true[R]
-İlk olarak küme merkezleri belirlenir. Belirleme işlemi yapılırken iki yol izlenilebilir:
+İlk olarak küme merkezleri belirlenir. Belirleme işlemi yapılırken iki yol izlenilebilir: +
        - Küme merkezleri rastgele bir nokta veya noktalar kümesi seçilebilir. +
        - Küme merkezleri kullanılacak olan veri setinden seçilebilir. +
        
-image::https://github.com/selingizemozkan/k-means/raw/master/ghkjghj.png[R]
+image::https://github.com/selingizemozkan/k-means/blob/master/c2.png?raw=true[R]
+Veri setindeki her bir noktanın merkezlere olan uzaklıkları öklid formülü ile hesaplanır ve karşılaştırılır. Noktalar en yakın oldukları merkezin kümesine dahil edilir. +
 
 *NOT* Kümelerin kararlı yapıya geçmesinde birkaç yaklaşım söz konusudur. Bunlardan biri, hesaplanan merkezlerin koordinatlarının bir sonraki döngüde hesaplanan merkezlerin koordinatlarıyla eşit olmasıdır. Aşağıda paylaştığımız algoritma ve kod örneğinde de bu yaklaşım kullanılmıştır. +
 Fakat bu yaklaşımda farklı iki nokta çiftlerinin de aynı merkezi verebilme ihtimali göz ardı edilmemelidir. +
