@@ -17,8 +17,7 @@ image::https://github.com/ahmeterdem9603/k-means_kumeleme/blob/master/nww.PNG[R]
 Kümeleme analizi istatistik, biyoloji, uzaysal veri madenciliği ve makine öğrenmesi, örüntü tanıma ve resim tanıma alanlarında kullanılmaktadır. İstatistik dünyasında k-means ve k-medoids kümeleme yöntemlerini kullanan S-Plus, SPSS ve SAS gibi paket programlar yoğunlukla kullanılmaktadır. Biyolojide genetik yapıların sınıflandırılması ve yeni yapıların keşfinde, uzaysal/düzlemsel veri madenciliğinde coğrafi konuma göre yerleşim yerlerine götürülecek mal ve hizmetler için ideal yer belirlemede, yapay zekâ alanında makine öğrenmesi için gözetimsiz öğrenme metodu olarak kullanılmaktadır. +
 
 == Kümeleme Yöntemleri +
-Kümeleme yöntemleri *hiyerarşik* ve *hiyerarşik olmayan (bölümlemeli)* kümeleme yöntemleri olarak iki ana bölümde incelenir.
-K-Means kümeleme algoritması hiyerarşik olmayan bir yapıya sahiptir. Kümeleme yöntemlerinin ağaç diyagramı şu şekildedir ; +
+Kümeleme yöntemlerinin ağaç diyagramı şu şekildedir ; +
 
 image::https://github.com/ahmeterdem9603/k-means_kumeleme/blob/master/Capture.PNG[R]
 
