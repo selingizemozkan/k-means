@@ -43,18 +43,18 @@ image::https://upload.wikimedia.org/math/8/4/9/849f040fd10bb86f7c85eb0bbe3566a4.
 
 *K-Means Algoritmasının İşlem Basamakları* +
 
-image::https://github.com/selingizemozkan/k-means/blob/master/c1.png?raw=true[R]
+image::https://github.com/selingizemozkan/k-means/blob/master/sonson1.png?raw=true[R]
 İlk olarak küme merkezleri belirlenir. Belirleme işlemi yapılırken iki yol izlenilebilir: +
        - Küme merkezleri rastgele bir nokta veya noktalar kümesi seçilebilir. +
        - Küme merkezleri kullanılacak olan veri setinden seçilebilir. +
        
-image::https://github.com/selingizemozkan/k-means/blob/master/c2.png?raw=true[R]
+image::https://github.com/selingizemozkan/k-means/blob/master/sonson2.png?raw=true[R]
 Veri setindeki her bir noktanın merkezlere olan uzaklıkları öklid formülü ile hesaplanır ve karşılaştırılır. Noktalar en yakın oldukları merkezin kümesine dahil edilir.
 
-image::https://github.com/selingizemozkan/k-means/blob/master/c4.png?raw=true[R]
+image::https://github.com/selingizemozkan/k-means/blob/master/sonson3.png?raw=true[R]
 Oluşan yeni kümelerin ağırlık merkezleri (ortalama değerleri) hesaplanır. Hesaplanan bu değerler kümelerin yeni merkezleridir. Veri setindeki her bir noktanın yeni merkezlere olan uzaklıkları tekrar hesaplanır.
 
-image::https://github.com/selingizemozkan/k-means/blob/master/4sekil.png?raw=true[R]
+image::https://github.com/selingizemozkan/k-means/blob/master/sonson4.png?raw=true[R]
 Küme merkezlerinin yer değiştirmelerinden dolayı kümeler içerisindeki verilerin de küme değiştirmesi söz konusudur. Dolayısıyla tam anlamıyla kümeleme işlemi yapılabilmesi için kümeler kararlı hale gelene kadar 2. ve 3. adımların tekrarlanması gerekir. 
 
 *NOT* Kümelerin kararlı yapıya geçmesinde birkaç yaklaşım söz konusudur. Bunlardan biri, hesaplanan merkezlerin koordinatlarının bir sonraki döngüde hesaplanan merkezlerin koordinatlarıyla eşit olmasıdır. Aşağıda paylaştığımız algoritma ve kod örneğinde de bu yaklaşım kullanılmıştır. +
