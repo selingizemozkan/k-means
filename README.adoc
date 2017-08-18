@@ -50,7 +50,7 @@ image::https://github.com/selingizemozkan/k-means/blob/master/sonson1.png?raw=tr
 image::https://github.com/selingizemozkan/k-means/blob/master/sonsonson2adim.png?raw=true[R]
 Veri setindeki her bir noktanın merkezlere olan uzaklıkları öklid formülü ile hesaplanır ve karşılaştırılır. Noktalar en yakın oldukları merkezin kümesine dahil edilir.
 
-image::https://github.com/selingizemozkan/k-means/blob/master/sonson3.png?raw=true[R]
+image::https://github.com/selingizemozkan/k-means/blob/master/sonsonson3adimlar.png?raw=true[R]
 Oluşan yeni kümelerin ağırlık merkezleri (ortalama değerleri) hesaplanır. Hesaplanan bu değerler kümelerin yeni merkezleridir. Veri setindeki her bir noktanın yeni merkezlere olan uzaklıkları tekrar hesaplanır.
 
 image::https://github.com/selingizemozkan/k-means/blob/master/sonson4.png?raw=true[R]
