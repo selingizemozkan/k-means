@@ -53,7 +53,7 @@ Veri setindeki her bir noktanın merkezlere olan uzaklıkları öklid formülü 
 image::https://github.com/selingizemozkan/k-means/blob/master/sonsonson3adimlar.png?raw=true[R]
 Oluşan yeni kümelerin ağırlık merkezleri (ortalama değerleri) hesaplanır. Hesaplanan bu değerler kümelerin yeni merkezleridir. Veri setindeki her bir noktanın yeni merkezlere olan uzaklıkları tekrar hesaplanır.
 
-image::https://github.com/selingizemozkan/k-means/blob/master/sonson4.png?raw=true[R]
+image::https://github.com/selingizemozkan/k-means/blob/master/sonsonson4adimlar.png?raw=true[R]
 Küme merkezlerinin yer değiştirmelerinden dolayı kümeler içerisindeki verilerin de küme değiştirmesi söz konusudur. Dolayısıyla tam anlamıyla kümeleme işlemi yapılabilmesi için kümeler kararlı hale gelene kadar 2. ve 3. adımların tekrarlanması gerekir. 
 
 *NOT* Kümelerin kararlı yapıya geçmesinde birkaç yaklaşım söz konusudur. Bunlardan biri, hesaplanan merkezlerin koordinatlarının bir sonraki döngüde hesaplanan merkezlerin koordinatlarıyla eşit olmasıdır. Aşağıda paylaştığımız algoritma ve kod örneğinde de bu yaklaşım kullanılmıştır. +
